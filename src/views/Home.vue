@@ -39,25 +39,28 @@
       </div>
 
       <div class="hero-icon">
-        <img src="~/@/assets/logo.svg" alt="" />
+        <h1 class="mb-4 main-title" style="font-size: 6rem; font-family: 'Avenir', Helvetica, Arial, sans-serif">κλίμα</h1>
       </div>
-      <h1 class="mb-4 main-title">An Algorithmic Currency Protocol</h1>
+      <h1 class="mb-4 main-title">An Algorithmic Climate Protocol</h1>
       <p class="centered-text hero-desc">
-        Olympus utilizes Protocol Owned Value to enable price consistency and scarcity within an
-        infinite supply system.
+        Klima Fi utilizes Protocol Owned Value to enable carbon (CO2e) price consistency and scarcity within an
+        infinite carbon supply system.
+      </p>
+      <p class="centered-text hero-desc">
+        Klima Pistós - Climate Loyal
       </p>
       <router-link
         :to="{ name: 'stake' }"
         style="margin:2rem auto;max-width:200px; color: black !important;"
         class="button button-primary button-centered"
       >
-        Enter Olympus
+        Enter Klima
       </router-link>
     </div>
 
     <div class="block">
       <div class="row-responsive flex-centered" id="what">
-        <h3 class="centered-text py-8">Olympus Is</h3>
+        <h3 class="centered-text py-8">Klima Fi Is</h3>
       </div>
       <div class="row-responsive flex-centered">
         <div class="feature-box-module" style="">
@@ -67,8 +70,8 @@
           <div class="feature-block-desc">
             <h3>Backed by Assets</h3>
             <p>
-              Every OHM is backed by DAI and OHM-DAI LP in the treasury. This intrinsic value cannot
-              be diluted, providing a fundamental check on inflation.
+              Every KLIMA is backed by a VCU20 and KLIMA-VCU20 LP in the treasury. This intrinsic value cannot
+              be diluted, providing a fundamental check on inflation and check on infinite "climate" greenification
             </p>
           </div>
         </div>
@@ -79,7 +82,7 @@
           <div class="feature-block-desc">
             <h3>Algorithmically Managed</h3>
             <p>
-              Olympus has an adjustable policy state, allowing the DAO to adjust parameters and
+              Klima Fi has an adjustable policy state, allowing the DAO to adjust parameters and
               algorithmically optimize for stability or growth.
             </p>
           </div>
@@ -91,8 +94,8 @@
           <div class="feature-block-desc">
             <h3>Community Governed</h3>
             <p>
-              Olympus is a DAO first project actively working toward complete distribution of the
-              system to the community.
+              Klima Fi is a DAO first project actively working toward complete distribution of the
+              system to the community. Climate Governance is a public good after all.
             </p>
           </div>
         </div>
@@ -101,13 +104,16 @@
     <div class="block row-responsive no-pad">
       <div class="row-flex-max feature-row">
         <div class="row-flex-desc">
-          <h2>What makes Olympus unique?</h2>
+          <h2>What makes Klima unique?</h2>
           <p>
-            Olympus is a floating algorithmic currency. This means that it has mechanisms to promote
-            stability and predictablility without directly pegging to any asset. However, we take it
-            one step further with the introduction of adjustable policy; the DAO can move certain
-            variables up and down to target growth and profitability or stability and
-            predictability.
+            Klima is a floating algorithmic climate currency. This means that it has mechanisms to promote
+            stability and predictablility without directly pegging to any asset. This is to build in strong accountability into carbon markets using this mechanism
+          </p>
+          <p>
+            Klima Pistós - Climate Loyal
+          </p>
+          <p>
+            The slogan lifted from the US Marine Corp "Semper Fi", implies that the entire premise of the DAO is only 1. Climate over everything. It remains the mantra for how governance is decided and how all
           </p>
         </div>
       </div>
@@ -126,7 +132,7 @@
           <div class="works-desc">
             <h3>Reserves</h3>
             <p>
-              OHM is always backed by one DAI or one OHM backed by one DAI. This creates a
+              KLIMA is always backed by one VCU20 or one KLIMA backed by one VCU20. This creates a
               demand-based constraint on issuance of supply.
             </p>
           </div>
@@ -136,7 +142,7 @@
           <div class="works-desc">
             <h3>Market Operations</h3>
             <p>
-              New OHM is created via direct sales into the market. These sales increase linearly
+              New KLIMA is created via direct sales into the market. These sales increase linearly
               with the market premium and produce profits for stakers.
             </p>
           </div>
@@ -148,7 +154,7 @@
           <div class="works-desc">
             <h3>Governance</h3>
             <p>
-              The DAO controls policy tools that allow us to loosen, increasing profitability and
+              The KLIMA controls policy tools that allow us to loosen, increasing profitability and
               volatility, or tighten, increasing stability and predictability.
             </p>
           </div>
@@ -158,8 +164,8 @@
           <div class="works-desc">
             <h3>Bonding</h3>
             <p>
-              New OHM is created via deferred sales for LP. Bonders lock their LP for a vesting term
-              and receive a discount on OHM when the trade ultimately occurs.
+              New KLIMA is created via deferred sales for LP. Bonders lock their LP for a vesting term
+              and receive a discount on KLIMA when the trade ultimately occurs.
             </p>
           </div>
         </div>
@@ -175,10 +181,9 @@
         <div class="row-flex-desc">
           <h2>A world of opportunity</h2>
           <p>
-            The Olympus reserve system enables new implementations of a multitude of DeFi
-            primitives. Interest and liquidation-free leverage and borrowing, counterparty-free
-            options and derivatives, trustless undercollateralized lending and more are possible.
-            The future is bright.
+            The Klima carbon reserve system enables new implementations of a multitude of DeFi
+            cliamte primitives. While it's foundation is built on carbon markets. The potential to expand to other types
+            of social asset classes like blue carbon markets, social credits, equality financing, ecosystem services pricing. The opportunity to finance the safekeeping of our planet remains possible with KLIMA.
           </p>
         </div>
       </div>
