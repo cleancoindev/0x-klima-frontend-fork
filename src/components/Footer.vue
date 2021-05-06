@@ -8,35 +8,35 @@
       <div class="footer-menu">
         <div class="footer-menu-column">
           <h4>Developers</h4>
-          <a href="https://docs.olympusdao.finance"><p>Documentation</p></a>
-          <a href="https://github.com/olympusDAO"><p>Github</p></a>
+          <a href="https://docs.klimafi.finance"><p>Documentation</p></a>
+          <a href="https://github.com/klima-fi"><p>Github</p></a>
         </div>
         <div class="footer-menu-column">
           <h4>Learn</h4>
           <a href="#what">
-            <p>What is Olympus?</p>
+            <p>What is Klima?</p>
           </a>
           <a href="#how">
             <p>How it works</p>
           </a>
-          <a href="https://olympusdao.medium.com/">
+          <a href="https://klima.medium.com/">
             <p>Blog</p>
           </a>
         </div>
         <div class="footer-menu-column">
           <h4>Governance</h4>
-          <a href="http://vote.olympusdao.finance/">
+          <a href="http://vote.klima.finance/">
             <p>Vote</p>
           </a>
-          <a href="https://forum.olympusdao.finance">
+          <a href="https://forum.klima.finance">
             <p>Forum</p>
           </a>
         </div>
         <div class="footer-menu-column">
           <h4>Community</h4>
-          <a href="https://twitter.com/OlympusDAO"><p>Twitter</p></a>
-          <a href="https://discord.gg/tmbtUpR6CF"><p>Discord</p></a>
-          <a href="https://olympusdao.medium.com/"><p>Blog</p></a>
+          <a href="https://twitter.com/KlimaFi"><p>Twitter</p></a>
+          <a href="https://discord.gg/JWFcg5mCrb"><p>Discord</p></a>
+          <a href="https://klima.medium.com/"><p>Blog</p></a>
         </div>
       </div>
 

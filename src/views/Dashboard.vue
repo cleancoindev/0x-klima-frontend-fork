@@ -37,8 +37,8 @@
                 new Intl.NumberFormat('en-US', {
                   style: 'currency',
                   currency: 'USD',
-                  maximumFractionDigits: 0
-                }).format(getMarketCap())
+                  maximumFractionDigits: 2
+              }).format(getMarketCap())
               }}
             </h1>
           </div>

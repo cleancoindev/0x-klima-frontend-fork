@@ -12,7 +12,7 @@
             style="height: 25px; width: 25px;"
           />
         </a>
-        <a href="https://olympusdao.medium.com/" target="_blank" class="pb-4">
+        <a href="https://klimafi.medium.com/" target="_blank" class="pb-4">
           <img
             src="~/@/assets/medium.svg"
             alt=""
@@ -20,7 +20,7 @@
             style="height: 25px; width: 25px;"
           />
         </a>
-        <a href="https://twitter.com/OlympusDAO" target="_blank" class="pb-4">
+        <a href="https://twitter.com/klimafi" target="_blank" class="pb-4">
           <img
             src="~/@/assets/twitter.svg"
             alt=""
@@ -28,7 +28,7 @@
             style="height: 25px; width: 25px;"
           />
         </a>
-        <a href="https://discord.gg/6QjjtUcfM4" target="_blank" class="pb-4">
+        <a href="https://discord.gg/JWFcg5mCrb" target="_blank" class="pb-4">
           <img
             src="~/@/assets/discord.svg"
             alt=""
@@ -39,9 +39,9 @@
       </div>
 
       <div class="hero-icon">
-        <h1 class="mb-4 main-title" style="font-size: 6rem; font-family: 'Avenir', Helvetica, Arial, sans-serif">κλίμα</h1>
+        <h1 class="mb-4 main-title" style="font-size: 6rem; font-family: 'Avenir', Helvetica, Arial, sans-serif">ω</h1>
       </div>
-      <h1 class="mb-4 main-title">An Algorithmic Climate Protocol</h1>
+      <h1 class="mb-4 main-title">κλίμα - An Algorithmic Climate Protocol</h1>
       <p class="centered-text hero-desc">
         Klima Fi utilizes Protocol Owned Value to enable carbon (CO2e) price consistency and scarcity within an
         infinite carbon supply system.
@@ -113,7 +113,8 @@
             Klima Pistós - Climate Loyal
           </p>
           <p>
-            The slogan lifted from the US Marine Corp "Semper Fi", implies that the entire premise of the DAO is only 1. Climate over everything. It remains the mantra for how governance is decided and how all
+            The slogan lifted from the US Marine Corp "Semper Fi", implies that the entire premise of the DAO is only 1.
+            Climate over everything. It remains the mantra for how governance is decided and how all decisions get made
           </p>
         </div>
       </div>
@@ -130,7 +131,7 @@
         <div class="works-module-responsive">
           <div class="works-icon"><img src="~/@/assets/coin.png" alt="" /></div>
           <div class="works-desc">
-            <h3>Reserves</h3>
+            <h3>Climate Reserves</h3>
             <p>
               KLIMA is always backed by one VCU20 or one KLIMA backed by one VCU20. This creates a
               demand-based constraint on issuance of supply.
@@ -182,8 +183,8 @@
           <h2>A world of opportunity</h2>
           <p>
             The Klima carbon reserve system enables new implementations of a multitude of DeFi
-            cliamte primitives. While it's foundation is built on carbon markets. The potential to expand to other types
-            of social asset classes like blue carbon markets, social credits, equality financing, ecosystem services pricing. The opportunity to finance the safekeeping of our planet remains possible with KLIMA.
+            climate primitives. While it's foundation is built on carbon markets. The potential to expand to other types
+            of social asset classes like blue carbon markets, social credits, equality financing, ecosystem services pricing is within reach. The opportunity to finance the safekeeping of our planet remains possible with KLIMA.
           </p>
         </div>
       </div>
