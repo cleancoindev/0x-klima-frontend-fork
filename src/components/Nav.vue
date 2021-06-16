@@ -14,7 +14,7 @@
                 <h4>Developers</h4>
                 <div class="drop-menu-hidden">
                   <a href="https://docs.klima.finance"><p>Documentation</p></a>
-                  <a href="https://github.com/klima-fi"><p>Github</p></a>
+                  <a href="https://github.com/klimadao"><p>Github</p></a>
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@
                 <a href="#how">
                   <p>How it works</p>
                 </a>
-                <a href="https://klima.medium.com/">
+                <a href="https://klimadao.medium.com/">
                   <p>Blog</p>
                 </a>
               </div>
