@@ -17,6 +17,7 @@
               <a href="https://github.com/klima-fi"><p>Github</p></a>
             </div>
           </div>
+        </li>
 
           <div class="drop-menu-item">
             <h4>Learn</h4>
@@ -32,6 +33,7 @@
               </a>
             </div>
           </div>
+        </li>
 
           <div class="drop-menu-item">
             <h4>Governance</h4>
@@ -44,18 +46,18 @@
               </a>
             </div>
           </div>
+        </li>
 
-          <router-link
-            :to="{ name: 'stake' }"
-            class="button button-primary d-none d-sm-block mx-4"
-            style="color: black !important;"
-          >
-            Enter App
-          </router-link>
+      </ul>
 
         </div>
       </div>
     </div>
+
+
+
+
+
 
     <ModalLogin :open="modalLoginOpen" @close="modalLoginOpen = false" />
   </nav>
@@ -63,7 +65,6 @@
 
 <script>
 import { mapState } from 'vuex';
-import { shorten } from '@/helpers/utils';
 
 export default {
   data() {
@@ -77,7 +78,10 @@ export default {
     address: state => state.settings.address
   }),
   methods: {
-    shorten
+    clickedGetOHM(evt) {
+      window.analytics.track("Clicked Button", {button: 'Get OHM'})
+    }
+
   }
 };
 </script>

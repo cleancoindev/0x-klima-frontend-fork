@@ -63,6 +63,8 @@
       <div class="row-responsive flex-centered" id="what">
         <h3 class="centered-text py-8">Klima DAO Is</h3>
       </div>
+
+
       <div class="row-responsive flex-centered">
         <div class="feature-box-module" style="">
           <div class="feature-block-image">
@@ -102,8 +104,10 @@
         </div>
       </div>
     </div>
+
+
     <div class="block row-responsive no-pad">
-      <div class="row-flex-max feature-row">
+      <div class="row-flex-max feature-row py-9">
         <div class="row-flex-desc">
           <h2>What makes Klima unique?</h2>
           <p>
@@ -120,17 +124,20 @@
         </div>
       </div>
       <div class="row-flex-image feature-image">
-        <img src="~/@/assets/Whatmakesolyuniue.png" alt="" />
+        <img src="~/@/assets/olympus1.svg" alt="" />
       </div>
     </div>
 
     <div class="block">
-      <div class="row-responsive flex-centered" id="how">
-        <h3 class="centered-text py-8">How It Works</h3>
+      <div class="row-responsive flex-centered mb-9" id="how">
+        <h1 class="centered-text">How It Works</h1>
       </div>
+
+
+
       <div class="row-responsive flex-centered">
         <div class="works-module-responsive">
-          <div class="works-icon"><img src="~/@/assets/coin.png" alt="" /></div>
+          <div class="works-icon"><img src="~/@/assets/features/reserves.svg" alt="" /></div>
           <div class="works-desc">
             <h3>Climate Reserves</h3>
             <p>
@@ -140,7 +147,7 @@
           </div>
         </div>
         <div class="works-module-responsive">
-          <div class="works-icon"><img src="~/@/assets/graph.png" alt="" /></div>
+          <div class="works-icon"><img src="~/@/assets/features/marketops.svg" alt="" /></div>
           <div class="works-desc">
             <h3>Market Operations</h3>
             <p>
@@ -152,7 +159,7 @@
       </div>
       <div class="row-responsive flex-centered">
         <div class="works-module-responsive">
-          <div class="works-icon"><img src="~/@/assets/pillars.png" alt="" /></div>
+          <div class="works-icon"><img src="~/@/assets/features/governance.svg" alt="" /></div>
           <div class="works-desc">
             <h3>Governance</h3>
             <p>
@@ -162,7 +169,7 @@
           </div>
         </div>
         <div class="works-module-responsive">
-          <div class="works-icon"><img src="~/@/assets/hand.png" alt="" /></div>
+          <div class="works-icon"><img src="~/@/assets/features/bonding.svg" alt="" /></div>
           <div class="works-desc">
             <h3>Bonding</h3>
             <p>
@@ -176,7 +183,7 @@
 
     <div class="block row-responsive no-pad">
       <div class="row-flex-image feature-image">
-        <img src="~/@/assets/worldofopp-image.png" alt="" />
+        <img src="~/@/assets/olympus2.svg" alt="" />
       </div>
 
       <div class="row-flex-max feature-row">

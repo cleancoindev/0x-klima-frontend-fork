@@ -12,6 +12,7 @@ const store = new Vuex.Store({
   modules,
   state: {
     appLoading: false,
+    toasts: [],
     isSidebarExpanded: false,
     address: null,
     network: { chainId: 1 },
@@ -23,6 +24,10 @@ const store = new Vuex.Store({
       state.isSidebarExpanded = value;
     },
 
+    removeToast(state, toast) {
+      state.toasts = state.toasts.filter(t => t['uuid'] !== toast.uuid);
+    },
+
     // Allows us to commit state directly from actions.
     set(_state, payload) {
       Object.keys(payload).forEach(key => {
@@ -32,7 +37,7 @@ const store = new Vuex.Store({
   },
 
   actions: {
-    init: async ({ commit, dispatch, state, getters }) => {
+    init: async ({ commit, dispatch }) => {
       commit('set', { appLoading: true });
 
       let signer, address, network;
@@ -67,7 +72,7 @@ const store = new Vuex.Store({
     login: async () => {
       try {
         // @ts-ignore
-        const enable = await window.ethereum.enable();
+        await window.ethereum.enable();
       } catch (error) {
         window.alert(error.message);
       }
@@ -94,7 +99,7 @@ if (ethereum) {
     store.dispatch('init');
   });
 
-  ethereum.on('networkChanged', network => {
+  ethereum.on('networkChanged', () => {
     store.dispatch('init');
   });
 }

@@ -11,7 +11,7 @@
           <a href="https://docs.klimafi.finance"><p>Documentation</p></a>
           <a href="https://github.com/klima-fi"><p>Github</p></a>
         </div>
-        <div class="footer-menu-column">
+        <!-- <div class="footer-menu-column">
           <h4>Learn</h4>
           <a href="#what">
             <p>What is Klima?</p>
@@ -22,7 +22,7 @@
           <a href="https://klima.medium.com/">
             <p>Blog</p>
           </a>
-        </div>
+        </div> -->
         <div class="footer-menu-column">
           <h4>Governance</h4>
           <a href="http://vote.klima.finance/">
