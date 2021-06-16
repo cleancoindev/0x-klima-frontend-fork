@@ -5,7 +5,7 @@
     </div>
 
     <template v-else-if="isHome">
-      <Nav />
+      <!--<Nav />-->
       <div div id="app" class="overflow-hidden">
         <transition name="fade" mode="out-in">
           <router-view :key="$route.path" />

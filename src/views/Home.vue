@@ -1,7 +1,6 @@
 <template>
   <div class="column">
     <!--<Nav />-->
-
     <div class="block hero">
       <div class="d-flex flex-column side-menu" style="position:absolute; right: 15px">
         <a href="https://klimadao.medium.com/" target="_blank" class="pb-4">
