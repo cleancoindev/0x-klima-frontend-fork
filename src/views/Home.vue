@@ -1,18 +1,10 @@
 <template>
   <div class="column">
-    <Nav />
+    <!--<Nav />-->
 
     <div class="block hero">
-      <div class="d-flex flex-column" style="position:absolute">
-        <a href="https://defipulse.com/" target="_blank" class="pb-4">
-          <img
-            src="~/@/assets/defipulse.svg"
-            alt=""
-            class="social-icon-small"
-            style="height: 25px; width: 25px;"
-          />
-        </a>
-        <a href="https://klimafi.medium.com/" target="_blank" class="pb-4">
+      <div class="d-flex flex-column side-menu" style="position:absolute; right: 15px">
+        <a href="https://klimadao.medium.com/" target="_blank" class="pb-4">
           <img
             src="~/@/assets/medium.svg"
             alt=""
@@ -20,7 +12,7 @@
             style="height: 25px; width: 25px;"
           />
         </a>
-        <a href="https://twitter.com/klimafi" target="_blank" class="pb-4">
+        <a href="https://twitter.com/klimadao" target="_blank" class="pb-4">
           <img
             src="~/@/assets/twitter.svg"
             alt=""
@@ -28,7 +20,7 @@
             style="height: 25px; width: 25px;"
           />
         </a>
-        <a href="https://discord.gg/JWFcg5mCrb" target="_blank" class="pb-4">
+        <a href="https://discord.gg/wBTsKXWDEU" target="_blank" class="pb-4">
           <img
             src="~/@/assets/discord.svg"
             alt=""
@@ -37,30 +29,39 @@
           />
         </a>
       </div>
-
-      <div class="hero-icon">
-        <h1 class="mb-4 main-title" style="font-size: 6rem; font-family: 'Avenir', Helvetica, Arial, sans-serif">ω</h1>
+      <div style="margin: 2rem auto 0 0">
+        <h1 style="padding: 30px">Klima</h1>
+        <p class="hero-desc">
+          A new community that’s resolute on solving climate change by creating a black hole for carbon which will suck carbon credits out of the default world and collateralize a carbon backed currency.
+        </p>
+        <div class="hero-icon">
+          <img
+                  src="~/@/assets/KlimaDAO/KlimaLogo_Transparent.png"
+                  alt=""
+                  class="social-icon-small"
+                  style="height: 100px; width: 100px; filter: none"
+          />
+        </div>
+        <h3 style="text-align: center;">Sign up for updates</h3>
+        <div style="text-align: center">
+          <router-link
+                  :to="{ name: 'home' }"
+                  style="margin:1rem auto;max-width:200px; color: black !important; width: 100%"
+                  class="button button-primary"
+          >
+            Register
+          </router-link>
+        </div>
+        <p class="hero-desc">
+          Klima is an Algorithmic Climate Protocol. Klima DAO utilizes Protocol Owned Value to enable carbon (CO2e) price consistency and scarcity within an infinite carbon supply system.
+        </p>
       </div>
-      <h1 class="mb-4 main-title">κλίμα - An Algorithmic Climate Protocol</h1>
-      <p class="centered-text hero-desc">
-        Klima Fi utilizes Protocol Owned Value to enable carbon (CO2e) price consistency and scarcity within an
-        infinite carbon supply system.
-      </p>
-      <p class="centered-text hero-desc">
-        Klima Pistós - Climate Loyal
-      </p>
-      <router-link
-        :to="{ name: 'stake' }"
-        style="margin:2rem auto;max-width:200px; color: black !important;"
-        class="button button-primary button-centered"
-      >
-        Enter Klima
-      </router-link>
-    </div>
 
-    <div class="block">
+
+    </div>
+    <!--<div class="block">
       <div class="row-responsive flex-centered" id="what">
-        <h3 class="centered-text py-8">Klima Fi Is</h3>
+        <h3 class="centered-text py-8">Klima DAO Is</h3>
       </div>
       <div class="row-responsive flex-centered">
         <div class="feature-box-module" style="">
@@ -77,12 +78,12 @@
         </div>
         <div class="feature-box-module" style="">
           <div class="feature-block-image">
-            <img src="~/@/assets/Algo--banner.png" alt="" />
+            <img src="~/@/assets/Algo&#45;&#45;banner.png" alt="" />
           </div>
           <div class="feature-block-desc">
             <h3>Algorithmically Managed</h3>
             <p>
-              Klima Fi has an adjustable policy state, allowing the DAO to adjust parameters and
+              Klima DAO has an adjustable policy state, allowing the DAO to adjust parameters and
               algorithmically optimize for stability or growth.
             </p>
           </div>
@@ -94,7 +95,7 @@
           <div class="feature-block-desc">
             <h3>Community Governed</h3>
             <p>
-              Klima Fi is a DAO first project actively working toward complete distribution of the
+              Klima DAO is a DAO first project actively working toward complete distribution of the
               system to the community. Climate Governance is a public good after all.
             </p>
           </div>
@@ -190,7 +191,7 @@
       </div>
     </div>
 
-    <Footer />
+    <Footer />-->
   </div>
 </template>
 

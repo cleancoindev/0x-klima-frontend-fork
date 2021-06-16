@@ -1,8 +1,8 @@
 <template>
   <div class="dapp-nav">
-    <router-link :to="{ name: 'dashboard' }" class="button button-dapp-menu">
+    <!--<router-link :to="{ name: 'dashboard' }" class="button button-dapp-menu">
       Dashboard
-    </router-link>
+    </router-link>-->
 
     <router-link :to="{ name: 'stake' }" class="button button-dapp-menu">
       Stake
@@ -16,9 +16,9 @@
       LP Staking
     </router-link>
 
-    <router-link :to="{ name: 'migrate' }" class="button button-dapp-menu">
+    <!--<router-link :to="{ name: 'migrate' }" class="button button-dapp-menu">
       Reclaim AlphaOHM
-    </router-link>
+    </router-link>-->
   </div>
 </template>
 

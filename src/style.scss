@@ -93,7 +93,7 @@ a {
   width:100vw;
   min-height:100vh;
   height:calc(100vh - 100px);
-  background-image: url(./assets/KlimaFi/home-splash-3.jpg);
+  background-image: url(./assets/KlimaDAO/Klima_Home.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -141,7 +141,11 @@ nav {
   }
 }
 
-.hero-desc{max-width:500px;}
+.hero-desc{
+  max-width:500px;
+  margin: initial!important;
+  padding: 30px;
+}
 
 .flex-centered{justify-content: center;}
 
@@ -321,7 +325,8 @@ nav {
   &:hover{filter:invert(1)}
 }
 
-.hero-icon{width: 100%;
+.hero-icon{
+  width: 100%;
   display: flex;
 img{max-width:200px;margin:auto;filter:invert(1);}}
 .login-bullet {
@@ -784,7 +789,7 @@ padding:0rem 1rem;
   margin: 1rem auto;
   font-size:3rem;
   line-height:3rem;
-  text-align:center;
+  text-align:left;
   max-width:600px;
 
 }
@@ -1257,5 +1262,8 @@ input.input:read-only {
       color:white;
       background:black;
     }
+  }
+  .side-menu {
+    text-align: right;
   }
 }
