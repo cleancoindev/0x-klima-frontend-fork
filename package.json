@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "@popperjs/core": "^2.9.2",
+    "@popperjs/core": "^2.11.5",
     "@primer/css": "^14.3.0",
     "@vue/ui": "^0.11.6",
     "black-scholes": "^1.1.0",
